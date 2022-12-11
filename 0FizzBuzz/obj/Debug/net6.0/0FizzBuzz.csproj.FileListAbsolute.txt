@@ -1,0 +1,15 @@
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.csproj.AssemblyReference.cache
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.AssemblyInfoInputs.cache
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.AssemblyInfo.cs
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.csproj.CoreCompileInputs.cache
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\bin\Debug\net6.0\0FizzBuzz.exe
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\bin\Debug\net6.0\0FizzBuzz.deps.json
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\bin\Debug\net6.0\0FizzBuzz.runtimeconfig.json
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\bin\Debug\net6.0\0FizzBuzz.dll
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\bin\Debug\net6.0\0FizzBuzz.pdb
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.dll
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\refint\0FizzBuzz.dll
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.pdb
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\0FizzBuzz.genruntimeconfig.cache
+C:\AAProgramacion\EjerciciosDeProgramación\0FizzBuzz\obj\Debug\net6.0\ref\0FizzBuzz.dll
