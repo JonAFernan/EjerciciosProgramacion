@@ -6,7 +6,7 @@
  *   0, 1, 1, 2, 3, 5, 8, 13...
  */
 
-int [] FibonacciList = Fibonacci(50);
+uint [] FibonacciList = Fibonacci(50);
 foreach (var i in FibonacciList)
 {
     Console.WriteLine(i);
@@ -14,16 +14,15 @@ foreach (var i in FibonacciList)
 
  
 
-static int [] Fibonacci(int number)
+static uint [] Fibonacci(int numOfFibonums)
 {   
-    int [] FiboList = new int[number];
-    FiboList[0] = 1;
-    FiboList[2] = 1;
-    //int r = FiboList[0] + FiboList[1];
-    //FiboList.Add(r);
+    uint [] FiboList = new uint[numOfFibonums];
+    FiboList[0] = 0;
+    FiboList[1] = 1;
 
-    for (int index = 0 ; index < number ; index++)
-    {
+    for (int index = 0 ; index < (FiboList.Length -2) ; index++)
+
+    {  
         FiboList[index + 2] = FiboList[index] + FiboList[index + 1];
     }
         
