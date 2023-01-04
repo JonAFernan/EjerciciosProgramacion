@@ -1,0 +1,15 @@
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\bin\Debug\net7.0\4AreaPoligono.exe
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\bin\Debug\net7.0\4AreaPoligono.deps.json
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\bin\Debug\net7.0\4AreaPoligono.runtimeconfig.json
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\bin\Debug\net7.0\4AreaPoligono.dll
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\bin\Debug\net7.0\4AreaPoligono.pdb
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.csproj.AssemblyReference.cache
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.GeneratedMSBuildEditorConfig.editorconfig
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.AssemblyInfoInputs.cache
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.AssemblyInfo.cs
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.csproj.CoreCompileInputs.cache
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.dll
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\refint\4AreaPoligono.dll
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.pdb
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\4AreaPoligono.genruntimeconfig.cache
+G:\ProgramacionNet\EjerciciosProgramacion\4AreaPoligono\obj\Debug\net7.0\ref\4AreaPoligono.dll
