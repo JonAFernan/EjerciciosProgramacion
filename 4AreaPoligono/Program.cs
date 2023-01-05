@@ -6,79 +6,88 @@
  * - Imprime el cálculo del área de un polígono de cada tipo.
  */
 
+// Creacion de objetos
+Polygon square = new Square(6);
+Polygon rectangle = new Rectangle(5,10);
+Polygon triangle = new Triangle(5,6);
 
-
-Square square = new Square(2);
-Polygon rectangle = new Rectangle(2,4);
-Polygon triangle = new Triangle(5,5);
 
 Area(square);
-//Area(triangle);
-//Area(rectangle);
+Area(triangle);
+Area(rectangle);
 
-void Area(Polygon poligono){
-    
+void Area(Polygon poligono)
+{    
     poligono.CalculateArea();
     poligono.PrintArea();
 }
 
  class Polygon {
-    public virtual void PrintArea(){
+    double area;
+    public virtual void PrintArea()
+    {
     Console.WriteLine("Area de un poligono");
     }
-    public virtual double CalculateArea(){
-    double area = 0;
+    public virtual double CalculateArea()
+    {
     return area;
     }
 }
 
 class Square : Polygon {
 double side;
-double area = 0;
+public double area;
 
-public Square(double side){
+public Square(double side)
+{
     this.side = side;
 }
 
-public override  void PrintArea(){
+public override  void PrintArea()
+    {    
+        Console.WriteLine($"El area de este cuadrado es {this.area}");
+    }
 
-    
-    Console.WriteLine($"El area de este cuadrado es {area}");
- }
-
-public override double CalculateArea(){
-    double area = this.side * this.side;
-    return area;
-}
+public override double CalculateArea()
+    {  
+        return this.area= this.side * this.side;;
+    }
 }
 class Rectangle : Polygon {
 double height;
 double width;
-
-public Rectangle(double height, double width){
+public double area;
+public Rectangle(double height, double width)
+{
     this.height = height;
     this.width = width;
 }
 
-public override void PrintArea(){
-
-    double area = this.width * this.height;
-    Console.WriteLine($"El area de este rectángulo es {area}");
- }
+public override void PrintArea()
+    {
+        Console.WriteLine($"El area de este rectángulo es {this.area}");
+    }
+ public override double CalculateArea()
+    {
+        return this.area= this.width * this.height;;
+    }
 }
 
 class Triangle : Polygon {
 double height;
 double triangleBase;
-
+double area;
 public Triangle(double height, double triangleBase){
     this.height = height;
     this.triangleBase = triangleBase;
 }
 
-public override  void PrintArea(){
-
-    double area = (this.triangleBase * this.height)/2;
-    Console.WriteLine($"El area de este triangulo es {area}");
- }
+public override  void PrintArea()
+    {
+        Console.WriteLine($"El area de este triangulo es {this.area}");
+    }
+ public override double CalculateArea()
+    { 
+        return this.area= this.triangleBase * this.height / 2 ;
+    }
 }
