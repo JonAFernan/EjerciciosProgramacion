@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AAProgramacion\\EjerciciosDeProgramacion\\4AreaPoligono\\4AreaPoligono.csproj": {}
+    "G:\\ProgramacionNet\\EjerciciosProgramacion\\4AreaPoligono\\4AreaPoligono.csproj": {}
   },
   "projects": {
-    "C:\\AAProgramacion\\EjerciciosDeProgramacion\\4AreaPoligono\\4AreaPoligono.csproj": {
+    "G:\\ProgramacionNet\\EjerciciosProgramacion\\4AreaPoligono\\4AreaPoligono.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AAProgramacion\\EjerciciosDeProgramacion\\4AreaPoligono\\4AreaPoligono.csproj",
+        "projectUniqueName": "G:\\ProgramacionNet\\EjerciciosProgramacion\\4AreaPoligono\\4AreaPoligono.csproj",
         "projectName": "4AreaPoligono",
-        "projectPath": "C:\\AAProgramacion\\EjerciciosDeProgramacion\\4AreaPoligono\\4AreaPoligono.csproj",
-        "packagesPath": "C:\\Users\\Jon Ander Fernández\\.nuget\\packages\\",
-        "outputPath": "C:\\AAProgramacion\\EjerciciosDeProgramacion\\4AreaPoligono\\obj\\",
+        "projectPath": "G:\\ProgramacionNet\\EjerciciosProgramacion\\4AreaPoligono\\4AreaPoligono.csproj",
+        "packagesPath": "C:\\Users\\jafer\\.nuget\\packages\\",
+        "outputPath": "G:\\ProgramacionNet\\EjerciciosProgramacion\\4AreaPoligono\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jon Ander Fernández\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

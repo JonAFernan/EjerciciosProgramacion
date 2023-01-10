@@ -7,9 +7,9 @@
  */
 
 // Creacion de objetos
-Polygon square = new Square(6);
-Polygon rectangle = new Rectangle(5,10);
-Polygon triangle = new Triangle(5,6);
+Polygon square = new Square(6f);
+Polygon rectangle = new Rectangle(5f,10f);
+Polygon triangle = new Triangle(5.2f,6f);
 
 
 Area(square);
@@ -23,22 +23,22 @@ void Area(Polygon poligono)
 }
 
  class Polygon {
-    double area;
+    float area;
     public virtual void PrintArea()
     {
     Console.WriteLine("Area de un poligono");
     }
-    public virtual double CalculateArea()
+    public virtual float CalculateArea()
     {
     return area;
     }
 }
 
 class Square : Polygon {
-double side;
-public double area;
+float side;
+public float area;
 
-public Square(double side)
+public Square(float side)
 {
     this.side = side;
 }
@@ -48,16 +48,16 @@ public override  void PrintArea()
         Console.WriteLine($"El area de este cuadrado es {this.area}");
     }
 
-public override double CalculateArea()
+public override float CalculateArea()
     {  
         return this.area= this.side * this.side;;
     }
 }
 class Rectangle : Polygon {
-double height;
-double width;
-public double area;
-public Rectangle(double height, double width)
+float height;
+float width;
+public float area;
+public Rectangle(float height, float width)
 {
     this.height = height;
     this.width = width;
@@ -67,17 +67,17 @@ public override void PrintArea()
     {
         Console.WriteLine($"El area de este rectángulo es {this.area}");
     }
- public override double CalculateArea()
+ public override float CalculateArea()
     {
         return this.area= this.width * this.height;;
     }
 }
 
 class Triangle : Polygon {
-double height;
-double triangleBase;
-double area;
-public Triangle(double height, double triangleBase){
+float height;
+float triangleBase;
+float area;
+public Triangle(float height, float triangleBase){
     this.height = height;
     this.triangleBase = triangleBase;
 }
@@ -86,7 +86,7 @@ public override  void PrintArea()
     {
         Console.WriteLine($"El area de este triangulo es {this.area}");
     }
- public override double CalculateArea()
+ public override float CalculateArea()
     { 
         return this.area= this.triangleBase * this.height / 2 ;
     }
