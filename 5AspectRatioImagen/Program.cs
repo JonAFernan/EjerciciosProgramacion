@@ -1,8 +1,23 @@
-﻿/*
- * Crea un programa que se encargue de calcular el aspect ratio de una
- * imagen a partir de una url.
- * - Url de ejemplo: https://raw.githubusercontent.com/mouredev/
- *   mouredev/master/mouredev_github_profile.png
- * - Por ratio hacemos referencia por ejemplo a los "16:9" de una
- *   imagen de 1920*1080px.
- */
+﻿using System.Drawing;
+
+namespace _5AspectRatioImagen;
+class Program
+{
+    static void Main(string[] args)
+
+    {
+        string direccion = "426x240.png"; 
+        ImageAspectRatio(direccion);
+    }
+
+    static void ImageAspectRatio(string imageUrl)
+    {
+        Bitmap image = new Bitmap(imageUrl);
+        System.Console.WriteLine(image.Height);
+        System.Console.WriteLine(image.Width);
+
+        //426:240 == 16:9 redondeado
+        //array con todos los aspect ratios. 
+        //Se divide la altura por la anchura de la imagen y se comparada con el array del aspec ratio para ver con cual coincide.
+    }
+}
