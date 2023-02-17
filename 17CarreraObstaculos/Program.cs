@@ -20,13 +20,31 @@ class Program
 {
     static void Main(string[] args)
     {
-        string circuitString = "__|__";// 2 rayas bajas, valla y 2 rallas bajas.
-        string [] athleteArray ={"run", "run", "jump" , "run", "run"};
+        string circuitString = "__|__|__";
+        string [] athleteArray ={"run", "run", "jump" , "run", "run","jump" , "run", "run"};
         Console.WriteLine(RaceOver(circuitString, athleteArray));
     }
 
     static bool RaceOver(string circuit , string [] athlete)
     {
+        char [] RaceResult = new char [circuit.Length];
+
+        for (int i = 0; i < circuit.Length; i++)
+        {
+            if(circuit[i] == '_') 
+            {
+                if(athlete[i] == "run" ) RaceResult[i] = '_';
+                else RaceResult[i] = 'x';
+            }
+            if(circuit[i] == '|' )
+            {
+                if(athlete[i] == "jump" ) RaceResult[i] = '|';
+                else RaceResult[i] = '/';
+            }
+            
+        }
+
+        if(Array.IndexOf(RaceResult, 'x') != -1 ||Array.IndexOf(RaceResult, '/') != -1 ) return false;
 
         return true;
     }
