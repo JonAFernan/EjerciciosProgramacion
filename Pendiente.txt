@@ -1,2 +1,2 @@
 El reto 10 está sin finalizar.
-El reto 15 está sin empezar.
+El reto 15 falta implementar que se cumpla el formato de fechas
