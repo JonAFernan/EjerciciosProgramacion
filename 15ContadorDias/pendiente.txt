@@ -1,2 +1,0 @@
-añadir comprobador de entra fechas correcta
-impedir que se puedan poner años bisiestos cuando no corresponde

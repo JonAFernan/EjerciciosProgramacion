@@ -1,4 +1,7 @@
-﻿namespace _15ContadorDias;
+﻿using System.Globalization;
+
+namespace _15ContadorDias;
+
 
 /*
  * Crea una función que calcule y retorne cuántos días hay entre dos cadenas
@@ -13,7 +16,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(DayCounter("27/04/1983", "03/12/1985"));
+        Console.WriteLine(DayCounter("28/02/2023", "25/12/1985"));
     }
 
     enum Months
@@ -51,14 +54,13 @@ class Program
 
     static int DayCounter(string date1, string date2)
     {
+        if(!DateFormatCheck(date1) || !DateFormatCheck(date2) ) return 0;
+        
         string [] date1Array = date1.Split('/');
         string [] date2Arrray = date2.Split('/');
         
         int date1Days = DateToDays(date1Array);
         int date2Days = DateToDays(date2Arrray);
-
-        System.Console.WriteLine(date1Days);
-        System.Console.WriteLine(date2Days);
 
         if (date1Days >= date2Days) return date1Days - date2Days;
         else return date2Days - date1Days;
@@ -93,5 +95,22 @@ class Program
         if(dateIntArray[2]%4 == 0 && dateIntArray[1]>= 3) yearDaysCounter += 1;
 
         return dateIntArray[0] + monthsDaysCounter + yearDaysCounter ;
+    }
+
+    static bool DateFormatCheck (string date)
+    {
+        string format ="dd/MM/yyyy";
+        CultureInfo provider = CultureInfo.InvariantCulture;
+    
+        try
+        {
+            DateTime dt = DateTime.ParseExact(date, format, provider);
+            return true;
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine($"{date} is not in the correct format.");
+            return false;
+        }
     }
 }
