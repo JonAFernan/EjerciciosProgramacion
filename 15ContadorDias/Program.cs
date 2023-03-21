@@ -16,7 +16,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(DayCounter("28/02/2023", "25/12/1985"));
+        Console.WriteLine(DayCounter("17/09/2022", "04/03/2023"));
     }
 
     enum Months
@@ -63,7 +63,7 @@ class Program
         int date2Days = DateToDays(date2Arrray);
 
         if (date1Days >= date2Days) return date1Days - date2Days;
-        else return date2Days - date1Days;
+        return date2Days - date1Days;
     }
 
     static int DateToDays (string [] date)
